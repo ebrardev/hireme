@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to top, #11a2e9, #83b5f0, #b9cbf5, #e1e3fa, #ffffff);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh
+};
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
