@@ -42,6 +42,7 @@
     border: none;
     border-radius: 10px;
   cursor: pointer;
+  
     transition: background-color 0.3s ease-in-out;
   }
   
@@ -49,12 +50,13 @@
     transform:translateX(200%);
 
     transition: background-color 1.3s ease-in-out;
+    pointer-events: none;
     
   }
   
   .btn:focus,
   .btn-2:focus {
     outline: none;
-  
+
   }
   
