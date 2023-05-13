@@ -28,7 +28,7 @@ color: black;
       }
   
   .navbar-item a {
-    color: black;
+    color: #1abc9c;
     text-decoration: none;
   }
   .navbar-link {
@@ -46,8 +46,14 @@ color: black;
     position: absolute;
     right: 10px;
     top:25px;
-    padding: 5px;
-    
+    padding: 2px;
+    margin: 3px;
+    background-color: white;
     color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.9;
+    font-weight: bold;
   }
+  
 
