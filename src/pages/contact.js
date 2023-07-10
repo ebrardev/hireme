@@ -20,6 +20,7 @@ const FormPage = () => {
         </div>
         <button type="submit" className={styles.button}>Send</button>
       </form>
+      <h1> Branch öğreniyorum.</h1>
     </div>
   );
 };
